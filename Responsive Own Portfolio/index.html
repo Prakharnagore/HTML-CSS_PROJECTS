@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link href="dist/hamburgers.css" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+      integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Prakhar Nagore Portfolio</title>
+  </head>
+  <body>
+    <!------------------------------P R O G R E S S - B A R  S T A R T -------------------------------------------->
+    <nav>
+      <div class="scrollProgress">
+        <div class="progressBar" id="myBar"></div>
+      </div>
+      <div class="navContainer">
+        <div class="logo"><span>PN</span></div>
+        <div class="toggleandmenu">
+          <div class="toggle">
+            <img src="sun.svg" alt="" />
+          </div>
+            <button class="menu" onclick="this.classList.toggle('opened');this.setAttribute('aria-expanded', this.classList.contains('opened'))" aria-label="Main Menu">
+              <svg width="100" height="100" viewBox="0 0 100 100">
+                <path class="line line1" d="M 20,29.000046 H 80.000231 C 80.000231,29.000046 94.498839,28.817352 94.532987,66.711331 94.543142,77.980673 90.966081,81.670246 85.259173,81.668997 79.552261,81.667751 75.000211,74.999942 75.000211,74.999942 L 25.000021,25.000058" />
+                <path class="line line2" d="M 20,50 H 80" />
+                <path class="line line3" d="M 20,70.999954 H 80.000231 C 80.000231,70.999954 94.498839,71.182648 94.532987,33.288669 94.543142,22.019327 90.966081,18.329754 85.259173,18.331003 79.552261,18.332249 75.000211,25.000058 75.000211,25.000058 L 25.000021,74.999942" />
+              </svg>
+            </button>
+        </div>
+      </div>
+    </nav>
+    <!------------------------------P R O G R E S S - B A R   E N D -------------------------------------------->
+    
+
+
+
+  
+
+    <!-----------------------------N A V I G A T I O N  S T A R T -------------------------------------------->
+<!--  <section class="navigation">
+      <a href="#home"> <div class="home1 activeNav"></div></a>
+      <a href="#about"><div class="about2"></div></a>
+      <a href="#skills"><div class="skills3"></div></a>
+      <a href="#projects"><div class="projects4"></div></a>
+      <a href="#hireme"><div class="hireme5"></div></a>
+      <a href="#footer"><div class="footer6"></div></a>
+    </section> -->
+    <!-----------------------------N A V I G A T I O N   E N D -------------------------------------------->
+
+
+
+
+    <!------------------------------H o m e   S e c t i o n-------------------------------------------->
+  <section class="home" id="home">
+     <div class="col50 info">
+        <h3 class="same">Hello I'm ,</h3>
+        <h1 class="same">Prakhar Nagore</span></h1>
+        <h3 class="same">FullStack Developer</h3>
+        <h4>(ReactJs / NodeJs)</h4>
+        <div class="same">
+        <a target="blank" href="https://www.google.com/search?q=prakhar+nagore&oq=Prakhar+Nagore&aqs=chrome.0.35i39j69i59j0i20i263i512j0i512l2j0i22i30l4.5999j0j15&sourceid=chrome&ie=UTF-8">
+          <button class="btn">Google Me</button>
+        </a>
+        </div>
+     </div>
+     <div class="col50">
+        <img src="home.svg" alt="" />
+      </div> 
+     <div class="curve1" id="curve1"></div>
+  </section>
+    <!------------------------------H o m e   S e c t i o n-------------------------------------------->
+  
+
+
+    
+    <!------------------------------S C R O L L  T O  T O P  S e c t i o n-------------------------------------------->
+    <button onclick="topFunction()" id="myBtn" title="Go to top">
+      <img src="toparrow.png" alt="" />
+    </button>
+    <!------------------------------S C R O L L T O  T O P   S e c t i o n-------------------------------------------->
+
+
+
+    
+    <!------------------------------A B O U T  S e c t i o n-------------------------------------------->
+    <section class="about" id="about">
+      <div class="col50">
+        <img src="about.svg" alt="" />
+        <div class="curve2" id="curve2">
+          <h2>Welcome to my Portfolio</h2>
+        </div>
+      </div>
+      <div class="col50">
+        
+        <div>
+          <h1 class="title">About Me</span></h1>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi
+            maxime nihil error laboriosam rerum? Odio, at provident explicabo
+            unde maxime aliquid sapiente ea pariatur facere, ratione ducimus
+            laborum totam et.
+          </p>
+          <p>
+            <span><i class="fas fa-map-marker-alt"></i></span>&nbsp;
+            <span>Indore, India</span>
+          </p>
+          
+        </div>
+      </div>
+    </section>
+    <!------------------------------A B O U T  S e c t i o n-------------------------------------------->
+    <!-----------------------------S K I L L S   S e c t i o n-------------------------------------------->
+    <section class="skills" id="skills">
+      <div class="col50">
+        <h1 class="title">Here are a few technologies I’ve been working with recently:</span></h1>
+        <div class="skillsContainer">
+          <div class="skill">
+            <div><img src="html5.png" alt=""></div>
+            <div><p>HTML5</p></div>
+          </div>
+          <div class="skill">
+            <div><img src="css3.png" alt=""></div>
+            <div><p>CSS3</p></div>
+          </div>
+          <div class="skill">
+            <div><img src="javascript.png" alt=""></div>
+            <div><p>Javascript(ES6+)</p></div>
+          </div>
+          <div class="skill">
+            <div><img src="bootstrap.png" alt=""></div>
+            <div><p>Bootstrap</p></div>
+          </div>
+          <div class="skill">
+            <div><img src="reactjs.png" alt=""></div>
+            <div><p>Reactjs</p></div>
+          </div>
+          <div class="skill">
+            <div><img src="redux.png" alt=""></div>
+            <div><p>Reduxjs</p></div>
+          </div>
+          <div class="skill">
+            <div><img src="nodejs.png" alt=""></div>
+            <div><p>Nodejs / Express js</p></div>
+          </div>
+          <div class="skill">
+            <div><img src="mysql.png" alt=""></div>
+            <div><p>MySql</p></div>
+          </div>
+          <div class="skill">
+            <div><img src="mongodb.png" alt=""></div>
+            <div><p>MongoDb / MongooseDb</p></div>
+          </div>
+        </div>
+        <br />
+        <a href="#">
+          <button class="btn">Certificates</button>
+        </a>
+      </div>
+    </section>
+
+    <!-----------------------------S K I L L S  S e c t i o n-------------------------------------------->
+    <!-----------------------------P R O J E C T S   S e c t i o n-------------------------------------------->
+    <section class="projects" id="projects">
+      <div class="heading" >
+        <h1 class="title">Some Awesome Work of Mine</h1>
+      </div>
+      <div class="projectContainer" >
+        <div class="project">
+          <div class="projectimg">
+            <img src="colorgenerator.png" alt="" />
+          </div>
+          <div class="projecttitle">
+            <p class="projectheading">Color Generator App</p>
+            <p class="projecttech">
+              <span>Technology Used</span>
+              <span>html</span>
+              <span>css</span>
+              <span>javascript</span>
+              <span>Reactjs</span>
+            </p>
+            <div><button class="btn">Watch Live</button></div>
+          </div>
+        </div>
+        <div class="project">
+          <div class="projectimg">
+            <img src="quotes.png" alt="" />
+          </div>
+          <div class="projecttitle">
+            <p class="projectheading">Quotes App</p>
+            <p class="projecttech">
+              <span>Technology Used</span>
+              <span>html</span>
+              <span>css</span>
+              <span>javascript</span>
+              <span>Reactjs</span>
+            </p>
+            <div><button class="btn">Watch Live</button></div>
+          </div>
+        </div>
+        <div class="project">
+          <div class="projectimg">
+            <img src="grocerybud.png" alt="" />
+          </div>
+          <div class="projecttitle">
+            <p class="projectheading">Grocery Bud App</p>
+            <p class="projecttech">
+              <span>Technology Used</span>
+              <span>html</span>
+              <span>css</span>
+              <span>javascript</span>
+              <span>Reactjs</span>
+            </p>
+            <div><button class="btn">Watch Live</button></div>
+          </div>
+        </div>
+        <div class="project">
+          <div class="projectimg">
+            <img src="E-Commerce.png" alt="" />
+          </div>
+          <div class="projecttitle">
+            <p class="projectheading">Color Generator App</p>
+            <p class="projecttech">
+              <span>Technology Used</span>
+              <span>html</span>
+              <span>css</span>
+              <span>javascript</span>
+              <span>Reactjs</span>
+            </p>
+            <div><button class="btn">Watch Live</button></div>
+          </div>
+        </div>
+      </div>
+      <button class="btn">All Projects</button>
+    </section>
+    <!-----------------------------P R O J E C T S  S e c t i o n-------------------------------------------->
+    <!-----------------------------H I R E M E  S e c t i o n-------------------------------------------->
+    <section class="hireme">
+      <div class="hiremeContainer" id="hireme">
+        <div class="col50">
+          <img src="hireme.svg" alt="" />
+        </div>
+        <div class="col50">
+          <h1 class="title">Let&#8217;s Work Together</h1>
+        </div>
+        <button class="btn">Hire Me</button>
+      </div>
+    </section>
+    <!-----------------------------H I R E M E  S e c t i o n-------------------------------------------->
+    <!-----------------------------F O O T E R  S e c t i o n-------------------------------------------->
+
+    <section class="footer" id="footer">
+      <div class="footerContainer">
+      <div class="footerTitle">
+        <h1 class="title">Having a great idea ?</h1>
+        <h1>Lets Talk about it . . .</h1>
+      </div>
+      <div class="linksContainer">
+        <a href="#">
+          <div style="color: #fff" class="link">
+            <i class="fab fa-linkedin"></i>
+          </div>
+        </a>
+        <a href="#">
+          <div style="color: #fff" class="link">
+            <i class="fab fa-stack-overflow"></i>
+          </div>
+        </a>
+
+        <a href="#">
+          <div style="color: #fff" class="link">
+            <i class="fab fa-github-square"></i>
+          </div>
+        </a>
+      </div>
+    </div>
+    </section>
+
+    <!-----------------------------F O O T E R  S e c t i o n-------------------------------------------->
+  </body>
+  <script src="index.js"></script>
+</html>
